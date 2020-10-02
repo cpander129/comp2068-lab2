@@ -37,7 +37,6 @@ router.get('/', function (req, res) {
     let x = req.query.x;
     let y = req.query.y;
 
-    res.render('index', { title: 'Calculator', });
     //call calculate function and display answer to console
     console.log(x + " " + method + " " + y + " = " + calculate(method, x, y));
     //call calculate function and display answer to page
